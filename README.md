@@ -1,5 +1,7 @@
 # Add-products-mern-app
 
+Clone the repository.
+
 ## API
 Created with an API REST using Mongoose, Express and Mongo.
 
