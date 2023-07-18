@@ -1,0 +1,82 @@
+:root {
+  font-family: Helvetica;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #39393b;
+}
+
+.App {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}
+
+input {
+  border-radius: 10px;
+}
+
+input::placeholder {
+  padding: 1rem;
+}
+
+input[type=text] {
+  border-radius: 2rem;
+  margin-bottom: 0.5rem;
+  min-height: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  min-width: 50%;
+}
+
+@media (max-width: 414px) {
+  form {
+    min-width: 75%;
+  }
+}
+
+.submit-button {
+  border-radius: 2rem;
+  min-height: 2.25rem;
+}
+
+.submit-button:hover {
+  background-color: #F45D5E;
+  color: white;
+  cursor: pointer;
+
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  color: #F45D5E;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 1rem;
+}
+
+a {
+  color: white;
+  margin-top: 1rem;
+}
+
+a:hover {
+  color: #F45D5E;
+}
+
+.product-item {
+  display: flex;
+  list-style-type: none 
+}
+
+
+
